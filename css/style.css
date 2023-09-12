@@ -1,5 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+/* elementi inline-block */
+.inline-block{
+    display: inline-block;
+}
+
+
+/* header */
+header{
+    padding-left: 30px;
+    padding-top: 15px;
+    background-color: white;
+}
+
+main{
+    padding-left: 20%;   
+    padding-right: 20%;   
+}
+
+/* container */
+.container {
+   background-color: white;
+   margin-top: 60px;    
+   padding-top: 20px;
+   padding-left: 50px;
+}
+
+/* bottoni */
+button {
+    line-height: 30px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
