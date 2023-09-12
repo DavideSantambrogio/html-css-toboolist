@@ -33,15 +33,19 @@ main{
 .container {
    background-color: white;
    margin-top: 60px;    
-   padding-top: 20px;
-   padding-left: 50px;
    border-radius: 30px;
    padding-bottom: 60px;
    font-family: 'Roboto', sans-serif;
 }
 
 /* bottoni */
+.bottoni{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
 button {
+    border: none;
     line-height: 30px;
     height: 30px;
     padding-left: 10px;
@@ -59,21 +63,32 @@ button {
 .off{
     color: lightgray;
     background-color: white;
-    border-color: lightgray;
+    border: 1px solid lightgray;
 }
 
 /* lista */
+.lista{
+    padding-top: 20px;
+   padding-left: 50px;
+}
+
 ul{ 
     list-style-type: none;    
 }
 
-.check{    
+.check{
+    padding-left: 5px;
+    width: 25px;
+    height: 25px;  
     color: green;
     border: 2px green solid; 
     border-radius: 50%;
 }
 
 .cross{
+    padding-left: 5px;
+    width: 25px;
+    height: 25px;  
     color:  red;
     border: 2px red solid; 
     border-radius: 50%;
