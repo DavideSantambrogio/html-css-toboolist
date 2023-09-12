@@ -32,6 +32,7 @@ main{
    margin-top: 60px;    
    padding-top: 20px;
    padding-left: 50px;
+   border-radius: 30px;
 }
 
 /* bottoni */
@@ -40,4 +41,17 @@ button {
     height: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px ;
+}
+
+.on{
+    background-color: #45abea;
+    color: white;
+    border: none;
+}
+
+.off{
+    color: lightgray;
+    background-color: white;
+    border-color: lightgray;
 }
