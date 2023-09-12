@@ -11,6 +11,7 @@ body {
 /* elementi inline-block */
 .inline-block{
     display: inline-block;
+    vertical-align: middle;
 }
 
 
@@ -18,7 +19,9 @@ body {
 header{
     padding-left: 30px;
     padding-top: 15px;
+    padding-bottom: 15px;
     background-color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 main{
@@ -33,6 +36,8 @@ main{
    padding-top: 20px;
    padding-left: 50px;
    border-radius: 30px;
+   padding-bottom: 60px;
+   font-family: 'Roboto', sans-serif;
 }
 
 /* bottoni */
@@ -42,6 +47,7 @@ button {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px ;
+    margin-bottom: 10px;
 }
 
 .on{
@@ -54,4 +60,54 @@ button {
     color: lightgray;
     background-color: white;
     border-color: lightgray;
+}
+
+/* lista */
+ul{ 
+    list-style-type: none;    
+}
+
+.check{    
+    color: green;
+    border: 2px green solid; 
+    border-radius: 50%;
+}
+
+.cross{
+    color:  red;
+    border: 2px red solid; 
+    border-radius: 50%;
+}
+
+.box{ 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.editorial{
+    background-color: #45abea;
+}
+
+.q1{
+    background-color: blueviolet;
+}
+
+.recruiting{
+    background-color: aquamarine;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: palevioletred;
+}
+
+.sales{
+    background-color: goldenrod;
+}
+
+li{
+    margin: 10px;
 }
