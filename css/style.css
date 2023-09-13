@@ -1,3 +1,4 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 
 body {
     background-color: gray;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* elementi inline-block */
@@ -21,7 +23,7 @@ header{
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: white;
-    font-family: 'Roboto', sans-serif;
+   
 }
 
 main{
@@ -35,7 +37,6 @@ main{
    margin-top: 60px;    
    border-radius: 30px;
    padding-bottom: 60px;
-   font-family: 'Roboto', sans-serif;
 }
 
 /* bottoni */
@@ -57,7 +58,7 @@ button {
 .on{
     background-color: #45abea;
     color: white;
-    border: none;
+    border: 1px solid #45abea;
 }
 
 .off{
@@ -94,9 +95,10 @@ ul{
     border-radius: 50%;
 }
 
-.box{ 
+.box{
+    color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .editorial{
@@ -108,7 +110,7 @@ ul{
 }
 
 .recruiting{
-    background-color: aquamarine;
+    background-color: #64c0a9;
 }
 
 .mobile{
